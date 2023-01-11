@@ -1,6 +1,7 @@
 # BMI Calculator
 This is a BMI calculator that is built on the React JavaScript library through the Next.js framework.
 It will also return a report that the user can press to show and reset displaying their classified weight group and a visual gauge.
+
 ❤️‍🩹🩺🏥
 
 ## Calculation
