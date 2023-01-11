@@ -29,10 +29,22 @@ This is the formula that is used to calculate the BMI with imperial measurements
 
 After the submit button is pressed, the BMI score will be displayed along with the height and weight inputted in their corresponding measurements.
 
+![image](/resources/calculator.png)
+
 ## Report
 The BMI data is passed through React DOM through the use of props and callbacks.
 From the calacultion child component it will pass the data to the parent through a callback.
 Using the data in the parent component, it will pass the bmi to a child using props.
 
+Once the report receives this data, it can classify the BMI into weight groups:
+
+Less than 18.6: Underweight
+18.5 to 24.9: Normal Weight
+25.0 to 29.9: Overweight
+30.0 to 34.9: Obese
+Greater than 34.9: Extremely Obese
+
 ### Gauge
 Using an npm package named react-svg-gauge which uses D3.js to import a visual gauge that will show the user the score of the BMI. 
+
+![image](/resources/report.png)
