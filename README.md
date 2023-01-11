@@ -1,5 +1,6 @@
 # BMI Calculator
 This is a BMI calculator that is built on the React JavaScript library through the Next.js framework.
+
 It will also return a report that the user can press to show and reset displaying their classified weight group and a visual gauge.
 
 ❤️‍🩹🩺🏥
@@ -9,7 +10,9 @@ The user can choose between the metric and imperial system to input their measur
 
 ## Metric
 If the user chooses the metric system:
+
 The height input field will be measured in cm.
+
 The weight input field will be measured in kg.
 
 This is the formula that is used to calculate the BMI with metric measurements:
@@ -20,6 +23,7 @@ This divides the height by 100 to convert it to meters.
 
 ## Imperial
 If the user decides to use the imperial system:
+
 The height input field will split into two for feet and inches.
 The weight input field will be measured in lbs.
 
