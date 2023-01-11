@@ -13,7 +13,9 @@ The height input field will be measured in cm.
 The weight input field will be measured in kg.
 
 This is the formula that is used to calculate the BMI with metric measurements:
+
 ![image](/resources/metric_bmi.png)
+
 This divides the height by 100 to convert it to meters.
 
 ## Imperial
@@ -22,6 +24,7 @@ The height input field will split into two for feet and inches.
 The weight input field will be measured in lbs.
 
 This is the formula that is used to calculate the BMI with imperial measurements:
+
 ![image](/resources/imperial_bmi.png)
 
 After the submit button is pressed, the BMI score will be displayed along with the height and weight inputted in their corresponding measurements.
