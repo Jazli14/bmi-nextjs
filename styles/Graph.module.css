@@ -1,0 +1,25 @@
+.container {
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    margin-top: 15px;
+    font-size: 25px;
+    background-color: rgb(16, 35, 125);
+    color: white;
+    margin-left:80px;
+    margin-right: 80px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+
+}
+
+.header {
+    font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.body {
+    text-align: center;
+}

@@ -6,8 +6,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "lodash": "^4.17.21",
     "next": "latest",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-svg-gauge": "^1.0.10"
   }
 }

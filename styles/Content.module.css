@@ -1,0 +1,114 @@
+.container {
+  margin-top: 20px;
+  margin-right: 200px;
+  margin-left: 200px;
+  border-radius: 8px;
+  font-family: "Quicksand", cursive;
+  font-weight: 400;
+  color: white;
+  background-color: rgba(12, 29, 79, 0.758);
+  align-items: center;
+}
+
+.header {
+  padding-top: 20px;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Quicksand";
+}
+
+.input {
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  width: 18%
+}
+
+.inputContainer {
+  text-align: center;
+}
+
+.button {
+  display: block;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  color: white;
+  background-color: rgb(13, 13, 154);
+  border: none;
+  font-weight: normal;
+  font-size: 15px;
+  transition-duration: 0.25s;
+  font-family: "Rubik", sans-serif;
+  
+}
+
+.button:hover {
+  background-color: rgb(33, 33, 182);
+  font-size: 16px;
+  color: green;
+  cursor: pointer;
+
+}
+
+
+.measurement {
+  display: block;
+  text-align: center;
+  padding: 20px;
+}
+
+
+.measurementHeader {
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+
+
+.measurementSelection {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+}
+
+
+.measurementSelectionButton {
+  margin-left: 3px;
+  margin-right: 15px;
+}
+
+.feet {
+  padding: 5px;
+  border-radius: 4px;
+  width: 18.5%;
+}
+
+.inch {
+  padding: 5px;
+  border-radius: 4px;
+  width: 5%;  
+  margin-right: 5px;
+
+}
+
+.result {
+  border-radius: 20px;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 30px;
+  margin-bottom: 40px;
+  margin-right: 200px;
+  margin-left: 200px;
+  padding-bottom: 30px;
+  background-color: rgba(2, 7, 109, 0.406);
+  padding: 30px;
+}
+
+.graphContainer {
+  text-align: center;
+  font-family: "Sofia Sans Semi Condensed", sans-serif;
+}
