@@ -36,12 +36,16 @@ The BMI data is passed through React DOM through the use of props and callbacks.
 From the calacultion child component it will pass the data to the parent through a callback.
 Using the data in the parent component, it will pass the bmi to a child using props.
 
-Once the report receives this data, it can classify the BMI into weight groups:
+Once the report receives this data, it can classify the BMI into weight groups: <br/>
 
 Less than 18.6: Underweight
+
 18.5 to 24.9: Normal Weight
+
 25.0 to 29.9: Overweight
+
 30.0 to 34.9: Obese
+
 Greater than 34.9: Extremely Obese
 
 ### Gauge
