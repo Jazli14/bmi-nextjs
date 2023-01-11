@@ -37,7 +37,9 @@ After the submit button is pressed, the BMI score will be displayed along with t
 
 ## Report
 The BMI data is passed through React DOM through the use of props and callbacks.
+
 From the calacultion child component it will pass the data to the parent through a callback.
+
 Using the data in the parent component, it will pass the bmi to a child using props.
 
 Once the report receives this data, it can classify the BMI into weight groups: <br/>
