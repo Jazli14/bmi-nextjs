@@ -8,7 +8,7 @@ It will also return a report that the user can press to show and reset displayin
 ## Calculation
 The user can choose between the metric and imperial system to input their measurements, where metric is the default chosen metric.
 
-## Metric
+### Metric
 If the user chooses the metric system:
 
 The height input field will be measured in cm.
@@ -21,7 +21,7 @@ This is the formula that is used to calculate the BMI with metric measurements:
 
 This divides the height by 100 to convert it to meters.
 
-## Imperial
+### Imperial
 If the user decides to use the imperial system:
 
 The height input field will split into two for feet and inches.
